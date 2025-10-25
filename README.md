@@ -253,3 +253,22 @@ See [LICENSE](LICENSE) for more information.
 Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
 [![React SaaS Boilerplate](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
+Key Compatibility Details
+
+
+
+# Expo SDK 49: Was released with compatibility for the ecosystem generally moving toward Node.js 18. Though older versions might work, Node 18 is the standard LTS version for that generation of tools.
+
+React Native 0.72: Officially supports Node.js versions 16 or 18. However, after Node.js 16 reached its End-of-Life (EOL), Node.js 18 became the preferred LTS version.
+
+EAS Build: Expo's cloud build service, EAS Build, has migrated its default Node.js version to 18, indicating it as the recommended environment.
+
+# Best Practice
+It is strongly recommended to use a Node.js version manager (like nvm or fnm) to easily install and switch to Node.js 18 LTS for this project.
+
+Using Node Version Manager (nvm)
+If you use nvm, you would typically run:
+
+nvm install 18
+
+nvm use 18
